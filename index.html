@@ -1,1 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agrinho 2026</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<header>
+  <nav>
+    <h1>Agrinho 2026</h1>
+
+    <ul class="menu">
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#galeria">Galeria</a></li>
+      <li><a href="#dados">Dados</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+
+    <button id="darkMode">🌙</button>
+  </nav>
+
+  <section class="hero">
+    <div>
+      <h2>Conexão Campo e Cidade</h2>
+      <p>A tecnologia transforma a agricultura e aproxima pessoas.</p>
+      <button onclick="scrollGaleria()">Explorar</button>
+    </div>
+  </section>
+</header>
+
+<main>
+
+<section id="sobre" class="sobre">
+  <h2>Sobre o Projeto</h2>
+
+  <div class="cards">
+    <div class="card">
+      <h3>🌱 Sustentabilidade</h3>
+      <p>A agricultura sustentável protege o meio ambiente.</p>
+    </div>
+
+    <div class="card">
+      <h3>🚜 Tecnologia</h3>
+      <p>Máquinas inteligentes aumentam a produtividade.</p>
+    </div>
+
+    <div class="card">
+      <h3>🏙 Cidade</h3>
+      <p>O campo alimenta milhões de pessoas diariamente.</p>
+    </div>
+  </div>
+</section>
+
+<section id="galeria" class="galeria">
+  <h2>Galeria</h2>
+
+  <div class="grid">
+    <img src="img/campo.jpg" alt="Plantação no campo">
+    <img src="img/cidade.jpg" alt="Cidade moderna">
+    <img src="img/agricultura.jpg" alt="Tecnologia agrícola">
+  </div>
+</section>
+
+<section id="dados" class="dados">
+  <h2>Impacto da Agricultura</h2>
+
+  <div class="contador">
+    <h3 id="numero">0</h3>
+    <p>Produções agrícolas monitoradas</p>
+  </div>
+</section>
+
+<section id="contato" class="contato">
+  <h2>Contato</h2>
+
+  <form>
+    <input type="text" placeholder="Seu nome">
+    <input type="email" placeholder="Seu email">
+    <textarea placeholder="Mensagem"></textarea>
+    <button type="submit">Enviar</button>
+  </form>
+</section>
+
+</main>
+
+<footer>
+  <p>Projeto Agrinho 2026 • Desenvolvimento Front-End</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
